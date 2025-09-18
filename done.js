@@ -101,3 +101,41 @@ var petName = prompt("What is your pet's name?");
 alert ("You have a " + petType + " named " + petName);
 if (petType = "dog") prompt("I like dogs too!");
 if (petType = "cat") prompt("I'm allergic to cats");
+
+
+
+
+ Variable and Alert Katas */
+// These katas do not involve functions and are very basic. 
+// "String variable" and "integer variable" are created the same way. 
+
+/* COLOR KATAS */
+
+/* Var Alert */
+
+// make a string variable named color, set it equal to your favorite color.
+var color = "Green";
+// alert the message" "My favorite color is " plus the variable name, outside the quotes.
+alert("My favorite color is " + color)
+/* Var Alert Prompt */
+
+// make a string variable for color, but prompt the user for their favorite color.
+var color1 = prompt("What is yours favorite color?");
+
+// alert color plus " is a nice color!" - note the space in the quotes.
+alert(color1 + " is a nice color!");
+/* Var Alert Prompt Conditional */
+var color2 = prompt("What is yours favorite color?")
+// if user enters "black" alert "Black is not really a color." 
+if (color2 == "black" ) alert("Black is not really a color");
+// otherwise alert color " is a nice color!"
+else(color2 + "is a nice color!")
+/* AGE KATAS */
+// make an integer variable for age, prompt user for it
+var age = prompt("What is your age?");
+var firstName = prompt("What is your first name?")
+// make a string variable for name, prompt user for it
+if (age>16) alert ("you don't look that old");
+// if age is greater than 16, alert "you don't look that old!"
+else alert(firstName + " is " + age + "years old.");
+// otherwise alert name is age years old
