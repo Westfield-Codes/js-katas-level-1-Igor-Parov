@@ -139,3 +139,17 @@ if (age>16) alert ("you don't look that old");
 // if age is greater than 16, alert "you don't look that old!"
 else alert(firstName + " is " + age + "years old.");
 // otherwise alert name is age years old
+
+var pet = "";
+var allergic = confirm("Are you allergic to fur?");
+if (allergic == true){
+ var cute = confirm("Cute [ok] or creepy [cancel]");
+ if (cute == true) pet = "bird";
+ else pet = "snake";
+}
+ else{
+    var outside = confirm("Outside [ok] or inside [cancel] pet? ")
+     if (outside == true) pet = "dog"
+    if (outside == false) pet = "cat"
+}
+alert("Then try a " + pet + " as your pet!");
