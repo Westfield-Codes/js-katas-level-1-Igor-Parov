@@ -15,3 +15,7 @@
 // make a variable for color, prompt the user for their favorite
 // if user enters "black" alert "Black is not really a color." 
 // otherwise alert color " is a nice color!"
+var cute = confirm("Do you want a cute pet?");
+if (cute == true) cute = hamster;
+if (cute == false) cute = rat;
+alert("Try a " + cute);
