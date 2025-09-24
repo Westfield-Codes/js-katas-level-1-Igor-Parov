@@ -1,4 +1,10 @@
-/* Var, Prompt and Alert Katas */
+
+// make a string variable for a color, set it equal to your favorite
+var color = "green";
+// alert the message" "My favorite color is " plus the color
+alert ("My favorite color is "+ color);
+
+
 
 /* COLOR KATAS */
 
@@ -8,59 +14,6 @@ var color = "green";
 // alert the message" "My favorite color is " plus the color
 alert ("My favorite color is "+ color);
 
-
-/* Prompt */
-
-/* Prompt with Conditional */
-
-
-/* AGE */
-
-/* No Prompt */
-
-
-/* Prompt */
-
-
-/* Prompt with Conditional */
-
-
-/* ICE CREAM */
-
-/* No Prompt */
-
-
-/* Prompt */
-
-
-/* Prompt with Conditional */
-
-
-/* PET */
-
-/* No Prompt */
-
-
-/* Prompt */
-
-
-/* Prompt with Conditional */
-/* Var, Prompt and Alert Katas */
-
-/* COLOR KATAS */
-
-/* No Prompt */
-// make a string variable for a color, set it equal to your favorite
-var color = "green";
-// alert the message" "My favorite color is " plus the color
-alert ("My favorite color is "+ color);
-
-/* Prompt */
-
-
-/* AGE */
-
-/* No Prompt */
 
 /* Prompt */
 var age = 17;
@@ -77,15 +30,6 @@ var flavor = prompt("favorite flavor?");
 var scoops = prompt("number of scoops?");
 alert("you want" + scoops + "scoops of" + flavor)
 /* No Prompt */
-
-
-/* Prompt */
-
-
-/* Prompt with Conditional */
-
-
-/* PET */
 
 /* No Prompt */
 var petType = prompt("What is your pet type?");
@@ -107,11 +51,6 @@ if (petType = "cat") prompt("I'm allergic to cats");
 
  Variable and Alert Katas */
 // These katas do not involve functions and are very basic. 
-// "String variable" and "integer variable" are created the same way. 
-
-/* COLOR KATAS */
-
-/* Var Alert */
 
 // make a string variable named color, set it equal to your favorite color.
 var color = "Green";
