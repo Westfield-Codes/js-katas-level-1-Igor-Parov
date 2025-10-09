@@ -7,7 +7,7 @@
 /* Var Alert */
 // make a string variable named color, set it equal to your favorite color.
 // alert the message" "My favorite color is " plus the variable name, outside the quotes.
-
+1234
 /* Var Alert Prompt */
 // make a string variable for color, but prompt the user for their favorite color.
 // alert color plus " is a nice color!" - note the space in the quotes.
